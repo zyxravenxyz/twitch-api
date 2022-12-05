@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* border: 1px solid gold; */
+      }
+      .navbar {
+        max-width: 1920px;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10px;
+        box-shadow: -1.4px -1.4px 6px 0 #97a2a0;
+      }
+      .navbar_site {
+        font-size: 36px;
+      }
+      .navbar_list {
+        list-style: none;
+        display: flex;
+        font-size: 18px;
+        margin-right: 20px;
+        
+      }
+      .navbar_list li {
+        margin-left: 12px;
+      }
+      .navbar_list li a {
+        text-decoration: none;
+        padding: 12px 24px;
+        color: black;
+      }
+      .navbar_list li a:hover {
+        background: gray;
+      }
+      .bg {
+        background: linear-gradient(221deg, rgb(8 8 29)16%, rgb(204 148 252 / 20%)84%);
+      }
+      .wrapper {
+        max-width: 1440px;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        padding: 80px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="navbar_site">Twitch Top Games</div>
+      
+      <ul class="navbar_list">
+        <li><a href="#">Game1</a></li>
+        <li><a href="#">Game2</a></li>
+        <li><a href="#">Game3</a></li>
+        <li><a href="#">Game4</a></li>
+        <li><a href="#">Game5</a></li>
+      </ul>
+    </header>
+    <div class="bg">
+        <div class="wrapper">
+            <h1>League of Lengends</h1>
+            <h2>Top 20 popular live streans sorted by current viewers</h2>
+        </div>
+        <section class="streams">
+            <div class="stream">
+                <img src="" alt="">
+                <div class="stream_data">
+                    <div class="stream_avatar">
+                        <img src="" alt="">
+                    </div>
+                    <div class="stream_intro">
+                        <div class="stream_title"></div>
+                        <div class="stream_channel"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    </html>
+  </body>
