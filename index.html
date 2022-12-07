@@ -10,11 +10,11 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        /* border: 1px solid gold; */
+        border: 1px solid gold;
       }
       .navbar {
         max-width: 1920px;
-        height: 80px;
+        height: 50px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -52,6 +52,24 @@
         color: white;
         padding: 80px 0;
       }
+      .streams {
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .stream {
+        width: 360px;
+        background: #4c52ab;
+      }
+      .stream_data {
+        display: flex;
+        padding: 6px;
+      }
+      .stream_avatar {
+        width: 64px;
+        height: 64px;
+        margin-right: 6px;
+            }
     </style>
   </head>
   <body>
@@ -70,21 +88,58 @@
         <div class="wrapper">
             <h1>League of Lengends</h1>
             <h2>Top 20 popular live streans sorted by current viewers</h2>
-        </div>
-        <section class="streams">
-            <div class="stream">
+            <section class="streams">
+              <div class="stream">
+                  <img src="" alt="">
+                  <div class="stream_data">
+                      <div class="stream_avatar">
+                          <img src="" alt="">
+                      </div>
+                      <div class="stream_intro">
+                          <div class="stream_title">Trio Scrims</div>
+                          <div class="stream_channel">x2twins</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="stream">
                 <img src="" alt="">
                 <div class="stream_data">
                     <div class="stream_avatar">
                         <img src="" alt="">
                     </div>
                     <div class="stream_intro">
-                        <div class="stream_title"></div>
-                        <div class="stream_channel"></div>
+                        <div class="stream_title">Trio Scrims</div>
+                        <div class="stream_channel">x2twins</div>
                     </div>
                 </div>
             </div>
-        </section>
+            <div class="stream">
+              <img src="" alt="">
+              <div class="stream_data">
+                  <div class="stream_avatar">
+                      <img src="" alt="">
+                  </div>
+                  <div class="stream_intro">
+                      <div class="stream_title">Trio Scrims</div>
+                      <div class="stream_channel">x2twins</div>
+                  </div>
+              </div>
+          </div>
+          <div class="stream">
+            <img src="" alt="">
+            <div class="stream_data">
+                <div class="stream_avatar">
+                    <img src="" alt="">
+                </div>
+                <div class="stream_intro">
+                    <div class="stream_title">Trio Scrims</div>
+                    <div class="stream_channel">x2twins</div>
+                </div>
+            </div>
+        </div>
+          </section>
+        </div>
+      
     </div>
     </html>
   </body>
